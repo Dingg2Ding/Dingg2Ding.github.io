@@ -60,26 +60,26 @@ My background combines hands-on experience in **mobile app development**, **log 
 <a href="mailto:baeseongjae@email.com" target="_blank">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg"
        alt="Email"
-       class="icon-contact-img" />
+       class="contact-icon" />
   baeseongjae@email.com
 </a>
 &nbsp; &nbsp;
 <a href="https://github.com/seongjae-bae" target="_blank">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
        alt="GitHub"
-       class="icon-contact-img" />
+       class="contact-icon" />
   github.com/seongjae-bae
 </a>
 &nbsp; &nbsp;
 <a href="https://linkedin.com/in/your-linkedin-id" target="_blank">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
        alt="LinkedIn"
-       class="icon-contact-img" />
+       class="contact-icon" />
   linkedin.com/in/your-linkedin-id
 </a>
 
 <style>
-.icon-contact-img {
+.contact-icon {
   height: 20px;
   vertical-align: middle;
   margin-right: 4px;
@@ -87,8 +87,8 @@ My background combines hands-on experience in **mobile app development**, **log 
   transition: filter 0.2s;
 }
 @media (prefers-color-scheme: dark) {
-  .icon-contact-img {
-    filter: invert(100%);
+  .contact-icon {
+    filter: invert(1);
   }
 }
 </style>
