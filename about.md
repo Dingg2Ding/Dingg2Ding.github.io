@@ -37,16 +37,12 @@ My background combines hands-on experience in **mobile app development**, **log 
 - **Languages**: Korean (Native), English (TOEIC 830)
 
 ### 📈 Projects
-
 - **MLB Prediction System** *(Mar 2023 – Jun 2023)*  
   Built a salary prediction model for baseball players using data mining and visualization (Plotly).
-
 - **Data Visualization with Swift** *(Sep 2024 – Present)*  
   Developing interactive, customizable chart tools for intuitive data exploration.
-
 - **A Remedy** *(Jun 2023 – Jan 2024)*  
   Led AR-based drug education project, achieving >90% improvement in user understanding.
-
 - **Docent (Personalized Advertising Platform)** *(Mar 2022 – Dec 2022)*  
   Designed and developed a personalized ad platform with AI-based recommendations.
 
@@ -62,25 +58,40 @@ My background combines hands-on experience in **mobile app development**, **log 
 ## 📬 Get in Touch
 
 <a href="mailto:baeseongjae@email.com" target="_blank">
-  <svg class="icon-contact" viewBox="0 0 24 24">
-    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg#icon"></use>
-  </svg>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg"
+       alt="Email"
+       class="icon-contact-img" />
   baeseongjae@email.com
 </a>
 &nbsp; &nbsp;
 <a href="https://github.com/seongjae-bae" target="_blank">
-  <svg class="icon-contact" viewBox="0 0 24 24">
-    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg#icon"></use>
-  </svg>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
+       alt="GitHub"
+       class="icon-contact-img" />
   github.com/seongjae-bae
 </a>
 &nbsp; &nbsp;
 <a href="https://linkedin.com/in/your-linkedin-id" target="_blank">
-  <svg class="icon-contact" viewBox="0 0 24 24">
-    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg#icon"></use>
-  </svg>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
+       alt="LinkedIn"
+       class="icon-contact-img" />
   linkedin.com/in/your-linkedin-id
 </a>
+
+<style>
+.icon-contact-img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+  filter: invert(0%);
+  transition: filter 0.2s;
+}
+@media (prefers-color-scheme: dark) {
+  .icon-contact-img {
+    filter: invert(100%);
+  }
+}
+</style>
 ---
 
 Feel free to reach out for collaborations, research opportunities, or just to connect!
