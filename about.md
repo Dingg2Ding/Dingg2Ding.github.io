@@ -1,18 +1,59 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: M.S. student in Computer Science, specializing in HCI and Data Visualization. Passionate about mobile health, interactive visualization, and uncovering insights from data.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+## 👋 Hi, I'm Seongjae Bae
 
-If you have a question about him or else, just send a letter to him.
+I am an M.S. student at Yonsei University, currently working as a research assistant in the Human-Data Interaction Lab.  
+My background combines hands-on experience in **mobile app development**, **log data analysis**, and **interactive visualization**, with a deep passion for applying data-driven insights in the digital health and gaming industries.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+### 🎓 Education
+- **Konkuk University**, B.S. in Smart ICT Convergence (Major GPA 3.97/4.5), Minor in Applied Statistics (3.93/4.5)
+  - Ranked 3rd in graduating class
+- **Jeonnam Science High School**
+  - Robotics Club President, Information Technology
 
-**may u needs ✨**
+### 💼 Experience
+- **Research Assistant, Yonsei University Medical Center** *(2024.10 – Present)*  
+  - Real-time personalized visualization for digital health (mindLAMP, OmniTrack)
+  - User-centered design, interactive data analysis, and improving user experience in HCI projects
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- **Intern, Human-Data Interaction Lab, Yonsei University** *(2024.09 – Present)*  
+  - Personalized data visualization, context-aware UI research, and CHI/TVCG literature review
+
+- **CEO, NIC** *(2017.03 – 2018.03)*  
+  - Developed solutions for household and social challenges, including patented devices
+
+### 🛠️ Skills
+- **Programming**: R, Python, Swift (iOS), Kotlin, Java (Android), Dart (Flutter), JavaScript
+- **Tools**: Figma, Protopie, Plotly, Looker Studio, Slack
+- **Languages**: Korean (Native), English (TOEIC 830)
+
+### 📈 Projects
+- **MLB Prediction System**: Built a salary prediction model for baseball players using data mining and visualization (Plotly)
+- **Data Visualization with Swift**: Developing interactive, customizable chart tools for intuitive data exploration
+- **A Remedy**: Led AR-based drug education project, achieving >90% improvement in user understanding
+- **Docent**: Designed and developed a personalized ad platform with AI-based recommendations
+
+### 🏆 Honors & Awards
+- AI Startup Support Program, Top Team (2022)
+- Dream Semester Excellence Award (2022)
+- Learning & Sharing Program, Top Team (2023)
+- Grand Prize, Media Convergence Project Competition (2023)
+- 3 patents and 2 design rights granted
+
+---
+
+## 📬 Get in Touch
+
+- <a href="mailto:baeseongjae@email.com"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg" alt="Email" style="height:18px;vertical-align:middle;margin-right:4px;"/> baeseongjae@email.com</a>
+- <a href="https://github.com/seongjae-bae"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" style="height:18px;vertical-align:middle;margin-right:4px;"/> github.com/seongjae-bae</a>
+- <a href="https://linkedin.com/in/your-linkedin-id"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" style="height:18px;vertical-align:middle;margin-right:4px;"/> linkedin.com/in/your-linkedin-id</a>
+
+---
+
+Feel free to reach out for collaborations, research opportunities, or just to connect!
