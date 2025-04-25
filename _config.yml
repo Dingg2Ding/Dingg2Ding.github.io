@@ -11,16 +11,20 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
-  bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  name: Seongjae Bae
+  bio: >-
+    Master's student in Computer Science at Yonsei University, specializing in Human-Computer Interaction (HCI) and Data Visualization.<br>
+    Interested in mHealth, personalized visualization, and accessible technology for all.<br>
+    Currently researching context-aware health data visualization frameworks at the Human-Data Interaction Lab.<br>
+    <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener">Google Scholar</a> ·
+    <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener">GitHub</a> ·
+    <a href="mailto:your-email@email.com" target="_blank" rel="noopener">Email</a>
+  username: seongjae # 원하는 유저네임(예: seongjae)
+  github: YOUR_GITHUB_USERNAME # 깃허브 유저명
+  twitter: YOUR_TWITTER_USERNAME # 트위터 아이디(없으면 빼도 됨)
+  facebook: YOUR_FACEBOOK_USERNAME # 페이스북 아이디(없으면 빼도 됨)
+  email: your-email@email.com # 실제 이메일
+  avatar: /assets/img/avatar.jpg # 본인 아바타 이미지 경로 (이미지 준비!)
 
 # URL settings
 url: "https://klise.now.sh" #
