@@ -1,9 +1,9 @@
 ---
-title: Mobile Data Visualization Library
+title: Mobile Data Visualization Library (2025.03 ~ present)
 date: 2025-03-02 09:45:47 +07:00
 modified: 2025-03-02 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]
-description: All the services are free, a source code this site placed on github repository and intergration with netlify service, another service that you can use is github page for hosting your own static site.
+description: Designing and developing a library that facilitates the easy creation of mobile-friendly data visualizations.
 ---
 
 The website was made using Jekyll the one of open source static sites generator, and using my own simple theme, I called [klisé](https://github.com/piharpi/klise).

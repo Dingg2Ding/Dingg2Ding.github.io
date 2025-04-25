@@ -1,9 +1,9 @@
 ---
-title: Mobile Data Visualization Library
-date: 2025-03-02 09:45:47 +07:00
-modified: 2025-03-02 09:24:47 +07:00
+title: AI-Powered Mobile Health Tracking Platform (2025.03 ~ present)
+date: 2025-03-04 09:45:47 +07:00
+modified: 2025-03-04 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]
-description: All the services are free, a source code this site placed on github repository and intergration with netlify service, another service that you can use is github page for hosting your own static site.
+description: Building a flexible, end-to-end platform that enables researchers to collect, analyze, and share health-related data without writing any code.
 ---
 
 The website was made using Jekyll the one of open source static sites generator, and using my own simple theme, I called [klisé](https://github.com/piharpi/klise).
