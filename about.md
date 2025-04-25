@@ -12,20 +12,23 @@ I am an M.S. student at Yonsei University, currently working as a research assis
 My background combines hands-on experience in **mobile app development**, **log data analysis**, and **interactive visualization**, with a deep passion for applying data-driven insights in the digital health and gaming industries.
 
 ### 🎓 Education
+- **Yonsei University**, Integrated M.S. & Ph.D. Program in Computer Science and Engineering *(Mar 2025 – Present)*  
+  - Human-Data Interaction Lab  (advisor : Bongshin Lee)
+  - Research focus: HCI, mobile data visualization, mobile digital health
 - **Konkuk University**, B.S. in Smart ICT Convergence (Major GPA 3.97/4.5), Minor in Applied Statistics (3.93/4.5)
   - Ranked 3rd in graduating class
 - **Jeonnam Science High School**
   - Robotics Club President, Information Technology
 
 ### 💼 Experience
-- **Research Assistant, Yonsei University Medical Center** *(2024.10 – Present)*  
+- **Research Assistant, Yonsei University Medical Center** *(2024.10 – 2024.01)*  
   - Real-time personalized visualization for digital health (mindLAMP, OmniTrack)
   - User-centered design, interactive data analysis, and improving user experience in HCI projects
 
-- **Intern, Human-Data Interaction Lab, Yonsei University** *(2024.09 – Present)*  
+- **Intern, Human-Data Interaction Lab, Yonsei University** *(2024.09 – 2025.03)*  
   - Personalized data visualization, context-aware UI research, and CHI/TVCG literature review
 
-- **CEO, NIC** *(2017.03 – 2018.03)*  
+- **CEO, NIC** *(2017.01 – 2018.06)*  
   - Developed solutions for household and social challenges, including patented devices
 
 ### 🛠️ Skills
@@ -34,10 +37,18 @@ My background combines hands-on experience in **mobile app development**, **log 
 - **Languages**: Korean (Native), English (TOEIC 830)
 
 ### 📈 Projects
-- **MLB Prediction System**: Built a salary prediction model for baseball players using data mining and visualization (Plotly)
-- **Data Visualization with Swift**: Developing interactive, customizable chart tools for intuitive data exploration
-- **A Remedy**: Led AR-based drug education project, achieving >90% improvement in user understanding
-- **Docent**: Designed and developed a personalized ad platform with AI-based recommendations
+
+- **MLB Prediction System** *(Mar 2023 – Jun 2023)*  
+  Built a salary prediction model for baseball players using data mining and visualization (Plotly).
+
+- **Data Visualization with Swift** *(Sep 2024 – Present)*  
+  Developing interactive, customizable chart tools for intuitive data exploration.
+
+- **A Remedy** *(Jun 2023 – Jan 2024)*  
+  Led AR-based drug education project, achieving >90% improvement in user understanding.
+
+- **Docent (Personalized Advertising Platform)** *(Mar 2022 – Dec 2022)*  
+  Designed and developed a personalized ad platform with AI-based recommendations.
 
 ### 🏆 Honors & Awards
 - AI Startup Support Program, Top Team (2022)
@@ -50,10 +61,26 @@ My background combines hands-on experience in **mobile app development**, **log 
 
 ## 📬 Get in Touch
 
-- <a href="mailto:baeseongjae@email.com"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg" alt="Email" style="height:18px;vertical-align:middle;margin-right:4px;"/> baeseongjae@email.com</a>
-- <a href="https://github.com/seongjae-bae"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" style="height:18px;vertical-align:middle;margin-right:4px;"/> github.com/seongjae-bae</a>
-- <a href="https://linkedin.com/in/your-linkedin-id"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" style="height:18px;vertical-align:middle;margin-right:4px;"/> linkedin.com/in/your-linkedin-id</a>
-
+<a href="mailto:baeseongjae@email.com" target="_blank">
+  <svg class="icon-contact" viewBox="0 0 24 24">
+    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg#icon"></use>
+  </svg>
+  baeseongjae@email.com
+</a>
+&nbsp; &nbsp;
+<a href="https://github.com/seongjae-bae" target="_blank">
+  <svg class="icon-contact" viewBox="0 0 24 24">
+    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg#icon"></use>
+  </svg>
+  github.com/seongjae-bae
+</a>
+&nbsp; &nbsp;
+<a href="https://linkedin.com/in/your-linkedin-id" target="_blank">
+  <svg class="icon-contact" viewBox="0 0 24 24">
+    <use href="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg#icon"></use>
+  </svg>
+  linkedin.com/in/your-linkedin-id
+</a>
 ---
 
 Feel free to reach out for collaborations, research opportunities, or just to connect!
