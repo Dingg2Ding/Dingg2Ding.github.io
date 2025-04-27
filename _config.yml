@@ -24,7 +24,7 @@ author:
   github: DinggiDing # 깃허브 유저명
   linkedin: seongjaebae
   email: jae7151@yonsei.ac.kr # 실제 이메일
-  avatar: /assets/img/avatar.jpg # 본인 아바타 이미지 경로 (이미지 준비!)
+  avatar: /assets/img/avatar.jpeg # 본인 아바타 이미지 경로 (이미지 준비!)
 
 # URL settings
 url: "https://klise.now.sh" #
