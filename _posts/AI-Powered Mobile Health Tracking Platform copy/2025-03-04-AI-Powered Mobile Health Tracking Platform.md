@@ -2,7 +2,7 @@
 title: AI-Powered Mobile Health Tracking Platform (2025.03 ~ present)
 date: 2025-03-04 09:45:47 +07:00
 modified: 2025-03-04 09:24:47 +07:00
-tags: [blog, netlify, jekyll, github]
+tags: [health tracking, visualization, mobile]
 description: Building a flexible, end-to-end platform that enables researchers to collect, analyze, and share health-related data without writing any code.
 ---
 
