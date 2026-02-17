@@ -10,6 +10,15 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.1.0"
 
+# Ruby 3.4+ no longer ships `csv` as a default gem, but Jekyll loads it.
+gem "csv", "~> 3.3"
+
+# Ruby 3.4+ no longer ships `base64` as a default gem, but dependencies load it.
+gem "base64", "~> 0.2"
+
+# Ruby 3.4+ no longer ships `bigdecimal` as a default gem, but Liquid uses it.
+gem "bigdecimal", "~> 3.1"
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

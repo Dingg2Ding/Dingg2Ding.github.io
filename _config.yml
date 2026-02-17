@@ -19,7 +19,7 @@ author:
     Member of the Human-Data Interaction Lab.<br>
     <a href="https://linkedin.com/in/seongjaebae" target="_blank" rel="noopener">LinkedIn</a> ·
     <a href="https://github.com/DinggiDing" target="_blank" rel="noopener">GitHub</a> ·
-    <a href="jae7151@yonsei.ac.kr" target="_blank" rel="noopener">Email</a>
+    <a href="mailto:jae7151@yonsei.ac.kr">Email</a>
   username: seongjae # 원하는 유저네임(예: seongjae)
   github: DinggiDing # 깃허브 유저명
   linkedin: seongjaebae
@@ -37,6 +37,9 @@ fb_appid:
 collections:
   posts:
     output: true
+  projects:
+    output: true
+    permalink: /projects/:title/
 
 # Markdown settings
 markdown: kramdown

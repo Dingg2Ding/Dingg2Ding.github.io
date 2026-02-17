@@ -46,6 +46,15 @@ layout: compress
           </div>
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
+          
+          {% if page.period %}
+          <div class="post-meta">
+            <span class="project-period" style="font-weight: bold; color: #EB5E28;">
+              Research Period: {{ page.period }}
+            </span>
+          </div>
+          {% endif %}
+
           {% if page.date %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
