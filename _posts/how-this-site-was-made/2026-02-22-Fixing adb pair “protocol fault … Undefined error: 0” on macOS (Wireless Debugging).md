@@ -1,7 +1,7 @@
 ---
-title: Fixing adb pair “protocol fault … Undefined error: 0” on macOS (Wireless Debugging)
-date: 2025-03-02 09:45:47 +07:00
-modified: 2025-03-02 09:24:47 +07:00
+title: Fixing adb pair protocol fault Undefined error 0 on macOS (Wireless Debugging)
+date: 2026-02-22 09:45:47 +07:00
+modified: 2026-02-22 09:24:47 +07:00
 tags: [mobile, visualization]
 description: Designing and developing a library that facilitates the easy creation of mobile-friendly data visualizations.
 ---

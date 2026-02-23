@@ -1,7 +1,7 @@
 ---
 title: Audio recording fails when Zoom is running
-date: 2025-03-02 09:45:47 +07:00
-modified: 2025-03-02 09:24:47 +07:00
+date: 2026-02-22 09:45:47 +07:00
+modified: 2026-02-22 09:24:47 +07:00
 tags: [Android, Audio, Troubleshooting, Mobile Development]
 description: Why audio recording fails when Zoom is running and how to detect or mitigate this issue in your app.
 ---

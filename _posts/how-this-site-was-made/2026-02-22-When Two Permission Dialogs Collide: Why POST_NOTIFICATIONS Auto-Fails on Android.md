@@ -1,7 +1,7 @@
 ---
-title: When Two Permission Dialogs Collide: Why POST_NOTIFICATIONS Auto-Fails on Android
-date: 2025-03-02 09:45:47 +07:00
-modified: 2025-03-02 09:24:47 +07:00
+title: When Two Permission Dialogs Collide - Why POST_NOTIFICATIONS Auto-Fails on Android
+date: 2026-02-22 09:45:47 +07:00
+modified: 2026-02-22 09:24:47 +07:00
 tags: [Android, Permissions, Bug Fix, Mobile Development]
 description: How one permission dialog can block another during app startup on Android, and how to fix it with serialized permission requests.
 ---

@@ -1,7 +1,7 @@
 ---
-title: Kotlin fold: Summing Exercise Session Durations (with a Clean Mental Model)
-date: 2025-03-02 09:45:47 +07:00
-modified: 2025-03-02 09:24:47 +07:00
+title: Kotlin fold - Summing Exercise Session Durations (with a Clean Mental Model)
+date: 2026-02-22 09:45:47 +07:00
+modified: 2026-02-22 09:24:47 +07:00
 tags: [Kotlin, Functional Programming, Data Processing, Tutorial]
 description: Understanding Kotlin's fold() function through a practical example of summing exercise session durations.
 ---
