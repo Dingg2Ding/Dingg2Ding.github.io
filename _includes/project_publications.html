@@ -1,0 +1,31 @@
+{% if page.publications and page.publications != empty %}
+<section class="project-publications" aria-labelledby="project-publications-title">
+  <h2 id="project-publications-title">Publications</h2>
+  <div class="publication-list">
+    {% for publication in page.publications %}
+    <article class="publication-item">
+      <div class="publication-main">
+        <h3>{{ publication.title }}</h3>
+        {% if publication.authors %}
+        <p class="publication-authors">{{ publication.authors }}</p>
+        {% endif %}
+        <p class="publication-meta">
+          {% if publication.venue %}<span>{{ publication.venue }}</span>{% endif %}
+          {% if publication.status %}<span>{{ publication.status }}</span>{% endif %}
+        </p>
+        {% if publication.note %}
+        <p class="publication-note">{{ publication.note }}</p>
+        {% endif %}
+      </div>
+      {% if publication.links %}
+      <div class="publication-links">
+        {% for link in publication.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

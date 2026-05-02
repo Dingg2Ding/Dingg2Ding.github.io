@@ -1,0 +1,28 @@
+{% if page.status_steps and page.status_steps != empty %}
+<section class="project-status" aria-labelledby="project-status-title">
+  <div class="project-status-header">
+    <div>
+      <p class="project-status-kicker">Current Status</p>
+    </div>
+    {% if page.progress %}
+    <strong>{{ page.progress }}%</strong>
+    {% endif %}
+  </div>
+
+  <div class="project-progress" aria-label="Project progress">
+    <div class="project-progress-bar">
+      <span style="width: {{ page.progress | default: 0 }}%"></span>
+    </div>
+    <ol class="project-status-steps">
+      {% for step in page.status_steps %}
+      <li class="status-step status-step-{{ step.state | default: 'todo' }}">
+        <span class="status-dot" aria-hidden="true"></span>
+        <div>
+          <strong>{{ step.label }}</strong>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endif %}

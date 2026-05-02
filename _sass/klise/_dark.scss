@@ -174,6 +174,140 @@ body[data-theme="dark"] {
     }
   }
 
+  // Portfolio Home
+  .portfolio-lede,
+  .project-role {
+    color: $dark-text-base-color;
+  }
+
+  .portfolio-actions {
+    a {
+      border-color: $dark-light;
+      color: $dark-white;
+
+      &:first-child {
+        background: $dark-white;
+        border-color: $dark-white;
+        color: $dark-black;
+      }
+
+      &:hover {
+        border-color: #eb5e28;
+        color: #eb5e28;
+      }
+    }
+  }
+
+  .portfolio-hero-panel {
+    span,
+    p {
+      color: $dark-gray;
+    }
+  }
+
+  .section-heading {
+    border-color: $dark-light;
+
+    a {
+      color: $dark-gray;
+
+      &:hover {
+        color: #eb5e28;
+      }
+    }
+  }
+
+  .home-project,
+  .university-link,
+  .project-thumb {
+    border-color: $dark-light;
+  }
+
+  .home-project {
+    span:last-child {
+      color: $dark-gray;
+    }
+
+    &:hover {
+      border-color: #eb5e28;
+    }
+  }
+
+  .project-category,
+  .project-meta,
+  .project-tag-label {
+    color: $dark-gray;
+  }
+
+  .project-title {
+    a:hover {
+      color: #eb5e28;
+    }
+  }
+
+  .project-desc {
+    color: $dark-white;
+  }
+
+  .project-status,
+  .project-publications,
+  .publication-item {
+    border-color: $dark-light;
+  }
+
+  .project-status-note {
+    color: $dark-text-base-color;
+  }
+
+  .project-progress-bar {
+    background: $dark-light;
+  }
+
+  .status-step {
+    color: $dark-gray;
+
+    .status-dot {
+      background: $dark-light;
+      border-color: $dark-smoke;
+    }
+
+    strong {
+      color: $dark-white;
+    }
+  }
+
+  .status-step-done {
+    .status-dot {
+      background: #74a978;
+      border-color: #74a978;
+    }
+  }
+
+  .status-step-active {
+    .status-dot {
+      background: #eb5e28;
+      border-color: #eb5e28;
+    }
+  }
+
+  .publication-authors,
+  .publication-note {
+    color: $dark-text-base-color;
+  }
+
+  .publication-meta {
+    color: $dark-gray;
+  }
+
+  .project-thumb {
+    color: $dark-black;
+  }
+
+  .university-link:hover {
+    border-color: #eb5e28;
+    color: #eb5e28;
+  }
+
   // Post Navigation
   .post-nav {
     border-color: $dark-light;

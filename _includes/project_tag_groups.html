@@ -1,0 +1,30 @@
+{% if page.project_tags %}
+<section class="project-detail-tags" aria-label="{{ page.title }} tags">
+  <div class="project-tag-groups">
+    {% if page.project_tags.platform %}
+    <div class="project-tag-row">
+      <span class="project-tag-label">Platform</span>
+      {% for tag in page.project_tags.platform %}<span class="tag-pill tag-platform">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    {% if page.project_tags.domain %}
+    <div class="project-tag-row">
+      <span class="project-tag-label">Research</span>
+      {% for tag in page.project_tags.domain %}<span class="tag-pill tag-domain">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    {% if page.project_tags.technical %}
+    <div class="project-tag-row">
+      <span class="project-tag-label">Technical</span>
+      {% for tag in page.project_tags.technical %}<span class="tag-pill tag-technical">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    {% if page.project_tags.output %}
+    <div class="project-tag-row">
+      <span class="project-tag-label">Output</span>
+      {% for tag in page.project_tags.output %}<span class="tag-pill tag-output">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

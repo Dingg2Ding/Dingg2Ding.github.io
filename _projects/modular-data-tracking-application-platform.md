@@ -4,8 +4,35 @@ title: Modular Data Tracking Application Platform
 period: "2025.03 - Present"
 permalink: /projects/Modular-Data-Tracking-Application-Platform/
 description: Plugin-based, configuration-driven mobile tracking platform for research studies.
+role: Designed the protocol runtime architecture and implemented JSON-driven study configuration, plugin composition, offline-first storage, and Firebase-backed syncing.
+venue: Platform / Architecture
+publication_summary: Platform paper in preparation
+current_status: Runtime architecture implemented; researcher tooling in progress
+progress: 35
+status_note: Core protocol runtime, JSON-driven configuration, local-first storage, and Firebase sync are implemented. The current focus is polishing reusable plugins and reducing researcher friction around protocol editing.
+status_steps:
+  - label: Concept
+    state: done
+  - label: Prototype
+    state: active
+  - label: Core Build
+    state: todo
+  - label: Validation
+    state: todo
+  - label: Output
+    state: todo
+publications:
+  - title: Modular Data Tracking Application Platform
+    status: In preparation
+    venue: Target venue TBD
+    note: Platform paper planned around protocol-as-configuration, plugin composition, local-first collection, and reproducible study runtime design.
 date: 2025-03-09
 tags: [Android, Research, Platform, Architecture]
+project_tags:
+  platform: [Android, Mobile]
+  domain: [Research, HCI, Health Tracking]
+  technical: [Platform, Architecture, Plugin-based, Config-driven, Offline-first, Firebase]
+  output: [Paper in Preparation]
 ---
 
 ## **Overview**

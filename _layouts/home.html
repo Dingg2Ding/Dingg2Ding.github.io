@@ -3,12 +3,56 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="In Progress">Recent Posts</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-{%- endfor -%}
+<section class="portfolio-hero" aria-labelledby="portfolio-title">
+  <div class="portfolio-hero-text">
+    <p class="portfolio-kicker">HCI Researcher & Mobile Systems Builder</p>
+    <h1 id="portfolio-title">Seongjae Bae</h1>
+    <p class="portfolio-lede">
+      I build research-grade mobile systems for health data collection,
+      mobile visualization, and real-world study operations.
+    </p>
+    <div class="portfolio-actions" aria-label="Primary links">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </div>
+  </div>
+  <div class="portfolio-hero-panel" aria-label="Research focus">
+    <span>Yonsei University</span>
+    <strong>Human-Data Interaction Lab</strong>
+    <p>HCI · Data Visualization · Mobile Health · Research Tools</p>
+  </div>
+</section>
+
+<section class="home-section" aria-labelledby="selected-projects">
+  <div class="section-heading">
+    <h2 id="selected-projects">Selected Projects</h2>
+    <a href="/projects/">View all</a>
+  </div>
+
+  {%- assign featured_projects = site.projects | sort: 'date' | reverse -%}
+  <div class="home-projects">
+    {%- for project in featured_projects limit: 3 -%}
+    <a class="home-project" href="{{ project.url }}">
+      <span class="home-project-period">{{ project.period }}</span>
+      <strong>{{ project.title }}</strong>
+      <span>{{ project.description }}</span>
+    </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section class="home-section" aria-labelledby="recent-writing">
+  <div class="section-heading">
+    <h2 id="recent-writing">Recent Writing</h2>
+    <a href="/archive/">Archive</a>
+  </div>
+  {%- for post in site.posts limit: site.number_of_posts -%}
+  <article class="post-item">
+    <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <h4 class="post-item-title">
+      <a href="{{ post.url }}">{{ post.title | escape }}</a>
+    </h4>
+  </article>
+  {%- endfor -%}
+</section>
