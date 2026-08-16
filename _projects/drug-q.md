@@ -1,15 +1,15 @@
 ---
 layout: post
 title: DrugQ
+project_id: drug-q
 period: "2025.07 - Present"
 permalink: /projects/DrugQ/
 description: Multimodal OTC Drug Safety Assistant (Android Research Prototype)
 role: Built the Android prototype end-to-end, integrating voice, image, prompt design, and the three-level medication safety verdict flow.
 venue: Research Prototype
-publication_summary: Manuscript in progress
-current_status: Working Android research prototype; manuscript direction forming
+current_status: Working Android prototype; related study accepted at AMIA 2026
 progress: 100
-status_note: The multimodal Android prototype is working with voice, image, and prompt-based safety verdict flows. Current work centers on evaluation framing and manuscript preparation.
+status_note: The multimodal Android prototype is working with voice, image, and prompt-based safety verdict flows. Related formative research on OTC medication decision-making has been accepted at AMIA 2026.
 status_steps:
   - label: Concept
     state: done
@@ -20,19 +20,14 @@ status_steps:
   - label: Validation
     state: done
   - label: Output
-    state: active
-publications:
-  - title: "DrugQ: Multimodal OTC Drug Safety Assistant"
-    status: Manuscript in progress
-    venue: Target venue TBD
-    note: Prototype-focused paper planned around multimodal input, safety verdict design, and prompt-based medication guidance.
+    state: done
 date: 2025-03-05
 tags: [Android, AI, Healthcare, Research]
 project_tags:
   platform: [Android, Mobile]
   domain: [mHealth, Healthcare, HCI]
   technical: [Multimodal AI, Voice Input, Image Input, Prompt Design]
-  output: [Research Prototype, Manuscript in Progress]
+  output: [Research Prototype, AMIA 2026, Accepted, Manuscript in Progress]
 ---
 
 ## **Overview**

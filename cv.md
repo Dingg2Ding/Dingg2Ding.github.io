@@ -27,6 +27,15 @@ GitHub: [github.com/{{ site.author.github }}](https://github.com/{{ site.author.
   - Minor GPA: 3.93/4.5
   - Ranked 3rd in graduating class
 
+## Publications, Posters, and Presentations
+
+- Hwang, S.*; **Bae, S.***; Ahn, J.; Shao, Z.; Choe, E. K.; & Lee, B. (2026). **SalusChart: A Data Visualization Library for Mobile Health Apps.** *IEEE VIS 2026 Short Papers.* **Accepted**
+- Lee, B.; **Bae, S.**; Li, M.; & Choe, E. K. (2026). **Envisioning Mobile Data Visualization Libraries for Digital Health.** *IEEE Computer Graphics and Applications, Visualization Viewpoints.* **Accepted**
+- Li, M.; Kommaraju, H.; Lee, J. G. W.; **Bae, S.**; Ao, S. A.; Lee, B.; & Choe, E. K. (2026). **Understanding Over-the-Counter Medication Decision-Making Among Older Adults and Caregivers.** *AMIA 2026 Symposium.* **Accepted**
+- Li, M.; Kommaraju, H.; **Bae, S.**; Lee, J.; Ao, S. A.; Cox, J.; Lee, B.; & Choe, E. K. (2026). **Empowering Older Adults and Caregivers to Make Safe Nonprescription Medication Decisions.** *a2 National Symposium.*
+
+\* Equal contribution.
+
 ## Research Interests
 
 - Human-Computer Interaction

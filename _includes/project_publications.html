@@ -1,30 +1,48 @@
-{% if page.publications and page.publications != empty %}
-<section class="project-publications" aria-labelledby="project-publications-title">
-  <h2 id="project-publications-title">Publications</h2>
+{% assign linked_publication_count = 0 %}
+{% for publication in site.data.publications %}
+  {% if publication.projects contains page.project_id %}
+    {% assign linked_publication_count = linked_publication_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% if linked_publication_count > 0 %}
+<section class="project-publications" id="research-outputs" aria-labelledby="project-publications-title">
+  <header class="project-publications-header">
+    <div>
+      <p class="project-publications-kicker">Project-linked research</p>
+      <h2 id="project-publications-title">Publications &amp; Research Outputs</h2>
+    </div>
+    <span class="publication-count">
+      {{ linked_publication_count }} {% if linked_publication_count == 1 %}output{% else %}outputs{% endif %}
+    </span>
+  </header>
   <div class="publication-list">
-    {% for publication in page.publications %}
-    <article class="publication-item">
+    {% for publication in site.data.publications %}
+    {% if publication.projects contains page.project_id %}
+    <article class="publication-item" id="publication-{{ publication.id }}">
       <div class="publication-main">
         <h3>{{ publication.title }}</h3>
         {% if publication.authors %}
         <p class="publication-authors">{{ publication.authors }}</p>
         {% endif %}
-        <p class="publication-meta">
-          {% if publication.venue %}<span>{{ publication.venue }}</span>{% endif %}
-          {% if publication.status %}<span>{{ publication.status }}</span>{% endif %}
-        </p>
         {% if publication.note %}
         <p class="publication-note">{{ publication.note }}</p>
         {% endif %}
+        <div class="publication-footer">
+          <p class="publication-meta">
+            {% if publication.status %}<span class="publication-status publication-status-{{ publication.status | slugify }}">{{ publication.status }}</span>{% endif %}
+            {% if publication.venue %}<span class="publication-venue">{{ publication.venue }}</span>{% endif %}
+          </p>
+          {% if publication.links %}
+          <div class="publication-links">
+            {% for link in publication.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
       </div>
-      {% if publication.links %}
-      <div class="publication-links">
-        {% for link in publication.links %}
-        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
     </article>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

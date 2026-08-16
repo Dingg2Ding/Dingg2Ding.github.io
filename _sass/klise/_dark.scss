@@ -218,8 +218,7 @@ body[data-theme="dark"] {
   }
 
   .home-project,
-  .university-link,
-  .project-thumb {
+  .university-link {
     border-color: $dark-light;
   }
 
@@ -233,20 +232,90 @@ body[data-theme="dark"] {
     }
   }
 
+  .home-publication {
+    border-color: $dark-light;
+  }
+
+  .page-content .home-publication-title,
+  .home-publication-title {
+    color: $dark-white;
+
+    &:hover {
+      color: #eb5e28;
+    }
+  }
+
+  .home-publication-authors {
+    color: $dark-gray;
+  }
+
   .project-category,
   .project-meta,
   .project-tag-label {
     color: $dark-gray;
   }
 
-  .project-title {
-    a:hover {
+  .project-category,
+  .project-entry {
+    border-color: $dark-light;
+  }
+
+  .project-media {
+    border-color: $dark-light;
+  }
+
+  .project-links span {
+    color: $dark-gray;
+  }
+
+  .tag-pill {
+    border-color: $dark-light;
+    color: $dark-text-base-color;
+  }
+
+  .project-output-preview {
+    border-color: $dark-light;
+  }
+
+  .project-output-heading {
+    > span {
+      color: #ff8a5c;
+    }
+
+    a {
+      color: $dark-gray;
+
+      &:hover {
+        color: #eb5e28;
+      }
+    }
+  }
+
+  .page-content .project-output-item,
+  .project-output-item {
+    border-top-color: $dark-light;
+    color: $dark-text-base-color;
+
+    &:hover {
+      color: #eb5e28;
+    }
+  }
+
+  .project-output-venue {
+    color: $dark-gray;
+  }
+
+  .page-content .project-title a,
+  .project-title a {
+    color: $dark-white;
+
+    &:hover {
       color: #eb5e28;
     }
   }
 
   .project-desc {
-    color: $dark-white;
+    color: $dark-text-base-color;
   }
 
   .project-status,
@@ -299,12 +368,39 @@ body[data-theme="dark"] {
     color: $dark-gray;
   }
 
-  .project-thumb {
-    color: $dark-black;
+  .publication-count {
+    color: $dark-gray;
+  }
+
+  .publication-status {
+    background: rgba(116, 169, 120, 0.2);
+    color: #a9d7ad;
+  }
+
+  .publication-status-planned {
+    background: rgba(118, 127, 135, 0.2);
+    color: #b5bdc4;
+  }
+
+  .publication-status-in-preparation {
+    background: rgba(220, 174, 85, 0.18);
+    color: #e5c16f;
+  }
+
+  .publication-status-manuscript-in-progress {
+    background: rgba(235, 94, 40, 0.18);
+    color: #ff9a73;
+  }
+
+  .publication-links a {
+    color: $dark-text-base-color;
+
+    &:hover {
+      color: #eb5e28;
+    }
   }
 
   .university-link:hover {
-    border-color: #eb5e28;
     color: #eb5e28;
   }
 

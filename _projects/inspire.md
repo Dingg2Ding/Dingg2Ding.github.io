@@ -1,12 +1,12 @@
 ---
 layout: post
 title: INSPIRE
+project_id: inspire
 period: "2025.09 - Present"
 permalink: /projects/INSPIRE/
 description: Production-level research tracking app for collecting survey, audio, and Samsung Health data in real-world nursing studies.
 role: Owned the mobile engineering scope for data collection, scheduled surveys, audio capture, Firebase sync, Crashlytics monitoring, and researcher coverage tooling.
 venue: Yonsei University College of Nursing Collaboration
-publication_summary: 2 manuscripts planned
 current_status: Internal testing; preparing full-scale study deployment
 progress: 75
 status_note: The Android app is implemented for real study operations, with the current focus on deployment reliability, data coverage monitoring, and researcher-facing workflows.
@@ -21,22 +21,13 @@ status_steps:
     state: active
   - label: Output
     state: todo
-publications:
-  - title: INSPIRE Study Application
-    status: In preparation
-    venue: Target venue TBD
-    note: Study-system paper planned around real-world data collection, Samsung Health integration, scheduled surveys, audio capture, and deployment reliability.
-  - title: Research Operations and Coverage Monitoring for Mobile Health Studies
-    status: Planned
-    venue: Target venue TBD
-    note: Methods/tooling output planned around researcher-facing export, daily coverage checks, and operational observability.
 date: 2025-03-08
 tags: [Android, Research, Data Collection, Samsung Health]
 project_tags:
   platform: [Android, Mobile]
   domain: [Research, mHealth, Health Tracking, HCI]
   technical: [Samsung Health, Firebase, Offline-first, Research Tooling]
-  output: [Collaboration, Pilot Study, Papers Planned]
+  output: [Collaboration, Pilot Study, Paper in Preparation]
 ---
 
 ## **Overview**

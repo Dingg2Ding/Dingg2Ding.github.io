@@ -42,6 +42,33 @@ home: true
   </div>
 </section>
 
+<section class="home-section" aria-labelledby="selected-publications">
+  <div class="section-heading">
+    <h2 id="selected-publications">Selected Publications</h2>
+    <a href="/assets/files/seongjae-bae-cv.pdf">View CV</a>
+  </div>
+
+  {%- assign accepted_publications = site.data.publications | where: "status", "Accepted" -%}
+  <div class="home-publications">
+    {%- for publication in accepted_publications limit: 3 -%}
+    {%- assign linked_project_id = publication.projects | first -%}
+    {%- assign linked_project = site.projects | where: "project_id", linked_project_id | first -%}
+    <article class="home-publication">
+      <div class="home-publication-copy">
+        <span class="home-publication-venue">{{ publication.venue }}</span>
+        {% if linked_project %}
+        <a class="home-publication-title" href="{{ linked_project.url }}#publication-{{ publication.id }}">{{ publication.title }}</a>
+        {% else %}
+        <span class="home-publication-title">{{ publication.title }}</span>
+        {% endif %}
+        <span class="home-publication-authors">{{ publication.authors }}</span>
+      </div>
+      <span class="publication-status publication-status-accepted">Accepted</span>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+
 <section class="home-section" aria-labelledby="recent-writing">
   <div class="section-heading">
     <h2 id="recent-writing">Recent Writing</h2>

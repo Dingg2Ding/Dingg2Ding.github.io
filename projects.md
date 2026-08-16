@@ -3,21 +3,23 @@ layout: page
 title: Projects
 permalink: /projects/
 comments: false
+body_class: projects-page
 ---
 
 <div class="project-section">
-  <div class="project-category">Graduate School</div>
+  <div class="project-category">
+    <span>M.S. · Yonsei University</span>
+    <span>{{ site.projects | size }} projects</span>
+  </div>
   <div class="project-list">
     {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
     {% for project in sorted_projects %}
-    <article class="project-entry">
-      <a href="{{ project.url }}" class="project-thumb project-thumb-{{ project.title | slugify }}" aria-label="{{ project.title }}">
-        {% if project.thumbnail %}
-        <img src="{{ project.thumbnail }}" alt="{{ project.title }} preview">
-        {% else %}
-        <span>{{ project.title | slice: 0, 2 }}</span>
-        {% endif %}
+    <article class="project-entry{% if project.thumbnail %} project-entry-has-media{% endif %}">
+      {% if project.thumbnail %}
+      <a href="{{ project.url }}" class="project-media" aria-label="View {{ project.title }}">
+        <img src="{{ project.thumbnail }}" alt="{{ project.title }} preview" loading="lazy">
       </a>
+      {% endif %}
       <div class="project-copy">
         {% if project.badge %}
         <div class="project-award">{{ project.badge }}</div>
@@ -26,21 +28,42 @@ comments: false
           <a href="{{ project.url }}">{{ project.title }}</a>
         </h2>
         <p class="project-desc">{{ project.description }}</p>
-        <p class="project-role">{{ project.role }}</p>
         <div class="project-meta">
           {% if project.period %}<span>{{ project.period }}</span>{% endif %}
           {% if project.venue %}<span>{{ project.venue }}</span>{% endif %}
-          {% if project.publication_summary %}<span>{{ project.publication_summary }}</span>{% endif %}
         </div>
-        <div class="project-links">
-          {% if project.project_tags %}
-            {% for tag in project.project_tags.platform %}<span>{{ tag }}</span>{% endfor %}
-            {% for tag in project.project_tags.domain %}<span>{{ tag }}</span>{% endfor %}
-            {% for tag in project.project_tags.technical %}<span>{{ tag }}</span>{% endfor %}
-            {% for tag in project.project_tags.output %}<span>{{ tag }}</span>{% endfor %}
-          {% else %}
-            {% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}
+        {% assign linked_publication_count = 0 %}
+        {% for publication in site.data.publications %}
+          {% if publication.projects contains project.project_id %}
+            {% assign linked_publication_count = linked_publication_count | plus: 1 %}
           {% endif %}
+        {% endfor %}
+        {% if linked_publication_count > 0 %}
+        <div class="project-output-preview">
+          <div class="project-output-heading">
+            <span>{% if linked_publication_count == 1 %}Publication{% else %}Publications{% endif %}</span>
+            <a href="{{ project.url }}#research-outputs">
+              {{ linked_publication_count }} {% if linked_publication_count == 1 %}output{% else %}outputs{% endif %}
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <div class="project-output-list">
+            {% for publication in site.data.publications %}
+              {% if publication.projects contains project.project_id %}
+              <a class="project-output-item" href="{{ project.url }}#publication-{{ publication.id }}">
+                <span class="project-output-copy">
+                  <span class="project-output-title">{{ publication.title }}</span>
+                  {% if publication.venue %}<span class="project-output-venue">{{ publication.venue }}</span>{% endif %}
+                </span>
+                <span class="publication-status publication-status-{{ publication.status | slugify }}">{{ publication.status }}</span>
+              </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        <div class="project-links">
+          {% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}
         </div>
       </div>
     </article>

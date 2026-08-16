@@ -1,12 +1,12 @@
 ---
 layout: post
 title: ReBloomLens
+project_id: rebloom-lens
 period: "2025.01 - Present"
 permalink: /projects/ReBloomLens/
 description: Routine-based health tracking platform for breast cancer survivors (Samsung Health + Daily Reflection).
 role: Implemented Samsung Health sleep/exercise integration, routine backtracking, mobile reflection flows, and SalusChart-based health visualizations.
 venue: Yonsei HCI Collaboration
-publication_summary: Study paper in preparation
 current_status: Production prototype integrated with modular tracking platform
 progress: 75
 status_note: The routine reflection experience and Samsung Health backtracking flow are implemented. Current work focuses on study alignment, visualization polish, and preparing research output.
@@ -21,11 +21,6 @@ status_steps:
     state: active
   - label: Output
     state: todo
-publications:
-  - title: "ReBloomLens: Routine-Based Health Reflection for Breast Cancer Survivors"
-    status: In preparation
-    venue: Target venue TBD
-    note: Study paper planned around routine check-ins, Samsung Health backtracking, and mobile-first reflection visualization.
 date: 2025-03-07
 tags: [Android, Samsung Health, Visualization, Research]
 project_tags:

@@ -1,0 +1,56 @@
+- id: saluschart-ieee-vis-2026
+  title: "SalusChart: A Data Visualization Library for Mobile Health Apps"
+  authors: "Hwang, S.*; Bae, S.*; Ahn, J.; Shao, Z.; Choe, E. K.; & Lee, B."
+  projects: [salus-chart]
+  status: Accepted
+  venue: IEEE VIS 2026 Short Papers
+  note: "* Equal contribution."
+
+- id: mobile-data-visualization-libraries-digital-health
+  title: Envisioning Mobile Data Visualization Libraries for Digital Health
+  authors: "Lee, B.; Bae, S.; Li, M.; & Choe, E. K."
+  projects: [salus-chart]
+  status: Accepted
+  venue: IEEE Computer Graphics and Applications, Visualization Viewpoints
+
+- id: otc-medication-decision-making
+  title: Understanding Over-the-Counter Medication Decision-Making Among Older Adults and Caregivers
+  authors: "Li, M.; Kommaraju, H.; Lee, J. G. W.; Bae, S.; Ao, S. A.; Lee, B.; & Choe, E. K."
+  projects: [drug-q]
+  status: Accepted
+  venue: AMIA 2026 Symposium
+
+- id: safe-nonprescription-medication-decisions
+  title: Empowering Older Adults and Caregivers to Make Safe Nonprescription Medication Decisions
+  authors: "Li, M.; Kommaraju, H.; Bae, S.; Lee, J.; Ao, S. A.; Cox, J.; Lee, B.; & Choe, E. K."
+  projects: [drug-q]
+  status: Presentation
+  venue: a2 National Symposium
+
+- id: modular-data-tracking-platform
+  title: Modular Data Tracking Application Platform
+  projects: [modular-data-tracking-application-platform]
+  status: In preparation
+  venue: Target venue TBD
+  note: Platform paper planned around protocol-as-configuration, plugin composition, local-first collection, and reproducible study runtime design.
+
+- id: inspire-study-application
+  title: INSPIRE Study Application
+  projects: [inspire]
+  status: In preparation
+  venue: Target venue TBD
+  note: Study-system paper planned around real-world data collection, Samsung Health integration, scheduled surveys, audio capture, and deployment reliability.
+
+- id: rebloom-lens
+  title: "ReBloomLens: Routine-Based Health Reflection for Breast Cancer Survivors"
+  projects: [rebloom-lens]
+  status: In preparation
+  venue: Target venue TBD
+  note: Study paper planned around routine check-ins, Samsung Health backtracking, and mobile-first reflection visualization.
+
+- id: drug-q-manuscript
+  title: "DrugQ: Multimodal OTC Drug Safety Assistant"
+  projects: [drug-q]
+  status: Manuscript in progress
+  venue: Target venue TBD
+  note: Prototype-focused paper planned around multimodal input, safety verdict design, and prompt-based medication guidance.

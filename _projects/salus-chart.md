@@ -1,15 +1,15 @@
 ---
 layout: post
 title: SalusChart
+project_id: salus-chart
 period: "2025.03 - Present"
 permalink: /projects/SalusChart/
 description: Mobile-first data visualization library for health and tracking data (Android/Compose).
 role: Led the initial architecture, design guidelines, mobile interaction model, and core implementation for a reusable health chart library.
 venue: Android / Compose Library
-publication_summary: Design notes planned
-current_status: Core library foundation built; design rationale being documented
+current_status: Core library complete; IEEE VIS 2026 Short Paper accepted
 progress: 100
-status_note: The initial architecture, chart UX rules, and mobile interaction foundations are complete. Current work is focused on documentation, performance notes, and broader integration.
+status_note: The initial architecture, chart UX rules, and mobile interaction foundations are complete. Related work has been accepted to IEEE VIS 2026 Short Papers, with a second article accepted to IEEE Computer Graphics and Applications.
 status_steps:
   - label: Concept
     state: done
@@ -20,19 +20,14 @@ status_steps:
   - label: Validation
     state: done
   - label: Output
-    state: active
-publications:
-  - title: "SalusChart: Mobile-First Visualization Components for Health Tracking"
-    status: Planned
-    venue: Technical note / design write-up
-    note: Design output planned around mobile chart readability, interaction patterns, and reusable defaults for health data visualization.
+    state: done
 date: 2025-03-06
 tags: [Android, Visualization, Library, Mobile]
 project_tags:
   platform: [Android, Mobile]
   domain: [Visualization, Health Tracking]
   technical: [Jetpack Compose, Library, Mobile-first, Chart Components]
-  output: [Design Notes Planned]
+  output: [IEEE VIS 2026, IEEE CG&A, Accepted]
 ---
 
 ## **Overview**
