@@ -51,6 +51,6 @@
 - id: drug-q-manuscript
   title: "DrugQ: Multimodal OTC Drug Safety Assistant"
   projects: [drug-q]
-  status: Manuscript in progress
-  venue: Target venue TBD
-  note: Prototype-focused paper planned around multimodal input, safety verdict design, and prompt-based medication guidance.
+  status: Submitted
+  venue: CHI 2027
+  note: Submitted to CHI 2027. The manuscript focuses on multimodal input, safety verdict design, and prompt-based medication guidance.
