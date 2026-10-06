@@ -36,7 +36,7 @@ INSPIRE is a production-level research tracking app designed for real study oper
 
 ## **Context and Collaboration**
 
-INSPIRE is conducted in collaboration with **Yonsei University College of Nursing**. I owned the **end-to-end engineering scope** of the mobile app (excluding the cognitive games module).
+INSPIRE is conducted in collaboration with **Prof. Sang Hui Chu’s team, Yonsei University College of Nursing**. I owned the **end-to-end engineering scope** of the mobile app (excluding the cognitive games module).
 
 ## **Problem**
 

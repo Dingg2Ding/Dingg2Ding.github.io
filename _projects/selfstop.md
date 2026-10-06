@@ -21,6 +21,10 @@ project_tags:
 
 SelfStop is an ongoing research app for studying self-regulation during short-form video viewing on Android and iOS. It hosts Reels and Shorts in an in-app WebView and supports different viewing and intervention conditions.
 
+## **Collaboration**
+
+Conducted in collaboration with **Gangnam Severance Hospital, Yonsei University**, and **an HCI research team at Sungkyunkwan University**.
+
 ## **What I Contributed**
 
 My work focuses on platform integration and data collection development within the project.

@@ -21,6 +21,10 @@ project_tags:
 
 MD4BD is an ongoing research collaboration involving Android-based health and sensor data collection. My contribution focuses on technical collection support, SDK integration, and setup documentation.
 
+## **Collaboration**
+
+Part of the **MindsAI-led MD4BD research consortium**, with **Yonsei University**.
+
 ## **What I Contributed**
 
 - Supported Android health and sensor data collection and DTRAC SDK integration.

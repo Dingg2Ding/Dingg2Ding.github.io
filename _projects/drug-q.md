@@ -79,7 +79,7 @@ DrugQ is an Android research prototype for a multimodal OTC drug safety assistan
 
 ## **Collaboration**
 
-- Conducted as a lab study project with **Prof. Eun-Kyung Choe’s team (University of Maryland)**.
+- Conducted as a lab study project with **Prof. Eun Kyoung Choe’s team (University of Maryland)**.
 - I owned the full engineering scope: mobile implementation, AI integration, and prompt design.
 
 ## **Outcome**

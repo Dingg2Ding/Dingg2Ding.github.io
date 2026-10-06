@@ -81,7 +81,7 @@ User-facing health graphs are rendered using **SalusChart** to ensure mobile rea
 
 ## **Collaboration**
 
-- Collaborated with another HCI lab at **Yonsei University** on the research context and direction.
+- Collaborated with **another HCI research lab at Yonsei University**.
 
 ## **Tech and Keywords**
 
